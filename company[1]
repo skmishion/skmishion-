@@ -1,0 +1,229 @@
+﻿
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <style>
+
+        input[type = "text"] {
+            background-color: moccasin;
+            border: solid red 2px;
+        }
+        body{
+            color:brown;
+            background-color:aqua;
+            margin:auto;
+            font-size:20px;
+        }
+    </style>
+</head>
+    
+<body>
+    <form method="post" action="./company" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="lTc/wcj4mSHr5abFvyn1+t6RusLx5r+1TFpltVAoZBs0r3Vsp0+21mICPsNzoNbJTU9nLQcbQAmqHMFXDWuVFEBRE33dX0905dYnm7NqIUv95RttUuyEb3NpHSQQdbywVJQbw61gyZ2P2xcdL2ZzSYpQDGU7yP/2w2Kjvg22FMYhSLsV1cZS5KEQOs6SZ4eUNY5vhtTuR/S//csCYidGjXQivM111K8xg0sEIGWzIQLxGYZo/Q7I3vsmN0TxUz8zD9xeSbXWTL/LOfuj1kiVPz59WEo1rMNbRu5vs3gsfxmHDejGzZUCpmcxlZwCwSge96p3dJuJA+BS3NDmQnZlktC63tIgpYLs8cY0/w2dpmU+AOZ3K0+p/HY/7rDuQfXrIge12Wgf5+Pta7Qdgypyt/n2uzlJQrl2EVYxY1GeIOih3NZEkZNves2AMnKNwjLO01sVWht+x/wrPOfUP365MxMvoV7XMtafbqMqzrUmUov7lRQa7Utnx2dT+9BVW72ZI8kyMquruGWsX2va1raEX2gXa+x4ptta0vmYBjpSdF+gcHqsSdh2Ce0qmEuh/V8M32xzpPyQ2hpvUZ0fgucB1Q/G22UF/TyqoChnkTUp0h7SSrL8KBCnd5qTxUQCZ984Cx+UFB1UMmdvlsVgctzQhLxdQRkN4w8C9MSBtp38ap+Dmi7EPqb/46Dej5oO9DFX7a+oIvAFKjaogwnyXlHZSWXGtrYkWyKR4rCdeAefImeqc5fpIWM73Vupk92szHn9BKerh0PCUP9oJwJTaTkt3itShxu7e1pzUy2RElDdaP8z2dkFr/JzlA9tGS5+eEqQSuLWSy37dGw+fG/S0xl6fjaJOD4tiaWOTfU92NTId0dJgPIhE8vkS1UwFB1RZwAIdVb4rr8WkCcaGvV7mXFJionoxrYJoLYaAn9GlJan8OOsaur/pe3O0iB23sT7wl2gciur3+lhV+V/y/C7xbW0AOAXFj+U0AWFN/NfDBh53HolhGi0YGzKzNhYwaN9scH1RhpMFp4cZjdf+PaeYJBMelyfCiDfjjB1cs1wKROghI+/CAO6zYUpXVasLB5IrzAxHtBU970PAK4rLmhErkhzASlmYArjQiAiGN8VXmIMB5eqmuNKPTPRUCYdOy9UESQFs302ajFEmawCDtvzX09O74X49pzyzNtGqAO89CNA0etZ/lr7KBOQ1NVBFXfIa7mbvF69hYjOqZHpq78I6+Z5JmQBhdZuBlt5Q7RPoBjLFhYXcmQ/MIEW3XeKf7KxcB8jWNnp8DN7U7fH8GdjE8mggvoLGOtPMqFUApdkBAhegCS5sazn6RA8UCkaWPCeKdRvGbRo+WYXwYZXJ17RBH4do51RejNmaG/uoOorHcXScyT904Q4sb04JGLWikbTtzivYp8nKe20Xgipc/JE8T5C2HM1KRsHU8UiPnRIqWViSpN80EPxSmuFZeJpFALaFQZqTBkSWnh9XDh7fAQgi6h9mQA4YuVurfuY2zD7FtXQxCx9ms+3e5laVvkHSlKYq5aSjOuTB3ZTdoSbOsLEujqsLLM0BnOvzliKh3NddOQWh1etGCTmOVJNTqTi0pK62muTMLHPxqFwhzDpux6R1/IjwA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+        <div>
+            <table border ="1">
+                 <tr>
+                    <td>empName:</td>
+                    <td><input name="txtempName" type="text" id="txtempName" /></td>
+                </tr>
+                 <tr>
+                    <td>empAddress:</td>
+                    <td><input name="txtempAddress" type="text" id="txtempAddress" /></td>
+                </tr>
+                 <tr>
+                    <td>empPost:</td>
+                    <td><input name="txtempPost" type="text" id="txtempPost" /></td>
+                </tr>
+                 <tr>
+                    <td>empTa:</td>
+                    <td><input name="txtempTa" type="text" id="txtempTa" /></td>
+                </tr>
+                 <tr>
+                    <td>empDa:</td>
+                    <td><input name="txtempDa" type="text" id="txtempDa" /></td>
+                </tr>
+                 <tr>
+                    <td>empSlary:</td>
+                    <td><input name="txtempSalary" type="text" id="txtempSalary" /></td>
+                </tr>
+                 <tr>
+                    <td></td>
+                    <td><input type="submit" name="btnsave" value="Submit" id="btnsave" /></td>
+                </tr>
+                 <tr>
+                    <td></td>
+                    <td><div>
+	<table cellspacing="0" rules="all" border="1" id="grd" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">luxcompany Empid</th><th scope="col">luxcompany EmpName</th><th scope="col">luxcompany EmpAddresh</th><th scope="col">luxcompany EmpPost</th><th scope="col">luxcompany EmpTa</th><th scope="col">luxcompany EmpDa</th><th scope="col">luxcompany EmpSalary</th><th scope="col">&nbsp;</th>
+		</tr><tr>
+			<td>
+                                    1
+                                </td><td>
+                                    raman kumar
+                                </td><td>
+                                    shahajadpur
+                                </td><td>
+                                    po
+                                </td><td>
+                                    250
+                                </td><td>
+                                    200
+                                </td><td>
+                                    13000
+                                </td><td>
+                                   <a id="grd_btndelete_0" href="javascript:__doPostBack(&#39;grd$ctl02$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    2
+                                </td><td>
+                                    raman kumar
+                                </td><td>
+                                    shahajadpur
+                                </td><td>
+                                    po
+                                </td><td>
+                                    250
+                                </td><td>
+                                    200
+                                </td><td>
+                                    13000
+                                </td><td>
+                                   <a id="grd_btndelete_1" href="javascript:__doPostBack(&#39;grd$ctl03$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    5
+                                </td><td>
+                                    saurav kumar
+                                </td><td>
+                                    purnea
+                                </td><td>
+                                    manager
+                                </td><td>
+                                    500
+                                </td><td>
+                                    1000
+                                </td><td>
+                                    15000
+                                </td><td>
+                                   <a id="grd_btndelete_2" href="javascript:__doPostBack(&#39;grd$ctl04$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    6
+                                </td><td>
+                                    sanjit kumar
+                                </td><td>
+                                    purnea
+                                </td><td>
+                                    co
+                                </td><td>
+                                    1000
+                                </td><td>
+                                    2000
+                                </td><td>
+                                    90000
+                                </td><td>
+                                   <a id="grd_btndelete_3" href="javascript:__doPostBack(&#39;grd$ctl05$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    7
+                                </td><td>
+                                    sanjit kumar
+                                </td><td>
+                                    purnea
+                                </td><td>
+                                    co
+                                </td><td>
+                                    1000
+                                </td><td>
+                                    2000
+                                </td><td>
+                                    90000
+                                </td><td>
+                                   <a id="grd_btndelete_4" href="javascript:__doPostBack(&#39;grd$ctl06$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    9
+                                </td><td>
+                                    saurav kumar
+                                </td><td>
+                                    purnea
+                                </td><td>
+                                    manager
+                                </td><td>
+                                    1000
+                                </td><td>
+                                    2000
+                                </td><td>
+                                    90000
+                                </td><td>
+                                   <a id="grd_btndelete_5" href="javascript:__doPostBack(&#39;grd$ctl07$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr><tr>
+			<td>
+                                    10
+                                </td><td>
+                                    rambalak 
+                                </td><td>
+                                    shahajadpur
+                                </td><td>
+                                    manager
+                                </td><td>
+                                    500
+                                </td><td>
+                                    200
+                                </td><td>
+                                    15000
+                                </td><td>
+                                   <a id="grd_btndelete_6" href="javascript:__doPostBack(&#39;grd$ctl08$btndelete&#39;,&#39;&#39;)">Delete</a>
+                                </td>
+		</tr>
+	</table>
+</div></td>
+                </tr>
+            </table>
+        </div>
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5C2B091C" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="cPs5DsDs4aOCKLCD3HWHo3mmktfnRKCyv0SOvsQSUp3whqer5dM5MGDnBal1gf/ctPj1IIFy53s+jvS0W9Egovu28QK99hgbxUYWHZYx5T64X1WYIKxqC06YFqmE/MG39MQJBfjljBvPS5/NcKMthZSXV/SpebWwf9sm942QBdAKaD6UJT2jnFJxKpO9L6XdB8pDnSCFFL7xPA7kMKPJWEFmR9EGd4zIfVHlYbhB7tAS2aqla8mXOVgVBGE/+wnr1FP21icayjDDL8/qyMRff+QF01zPT5Hahme+AzVsIepOzxHn6babIIaf++PhJ/gY2oXEw2TYLZxMvvI3N9wcKuHVAj5aXK+M/ikvb3MNseN2/stMr0XeSx2066Cv3smFMMNtUlgHEW6/lgm1gHPEVw==" />
+</div></form>
+
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="https://localhost:44399/7d4b6656339b4b0d8084022df144316a/browserLink" async="async" id="__browserLink_initializationData" data-requestId="cd5ac8ad4e7e41b691c02babda9bf074" data-appName="Internet Explorer"></script>
+<!-- End Browser Link -->
+
+</body>
+</html>
